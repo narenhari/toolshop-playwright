@@ -6,6 +6,8 @@ Test automation project for the open-source Practice Software Testing (Toolshop)
 - SQL data validation against the MariaDB database (missing prices, duplicate emails, products without a category)
 - Database connection check
 - UI smoke test with Playwright
+- API vs database check (product count from the API matches non-rental products in the DB)
+- Login UI test and page checks across Chromium, Firefox and WebKit
 
 ## Tech
 Playwright, JavaScript, MySQL (mysql2), Docker
